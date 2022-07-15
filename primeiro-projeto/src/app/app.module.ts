@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { MyFirstComponent } from "./my-first/my-first.component";
 import { MyFirst2Component } from './my-first2/my-first2.component';
+import { CoursesModule } from './courses/courses.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MyFirst2Component } from './my-first2/my-first2.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CoursesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
